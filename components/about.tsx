@@ -23,8 +23,9 @@ export default function About() {
       <p className="mb-3">
         After graduating with a diploma in{" "}
         <span className="font-medium">Personal Training</span>, I decided to
-        pursue my passion for programming. I enrolled in a diploma in University
-        and learned <span className="font-medium">software development</span>.{" "}
+        pursue my passion for programming. I enrolled in a Information
+        Techonology Diploma Program in University and learned and majored in{" "}
+        <span className="font-medium">software development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack

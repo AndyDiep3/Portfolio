@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cleanCollectiveImg from "@/public/clean-collective.png";
+import keeperAppImg from "@/public/keeper-app.png";
+import simonImg from "@/public/simon.png";
 
 export const links = [
   {
@@ -35,52 +35,49 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Univerity",
+    location: "Calgary, AB",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated with a Diploma after 4 semesters of studying. I found a job as a software developer 3 months later.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Calgary, AB",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I was a front-end developer working with a real world client for a project called Clean Collective. My stack included React, Node.js, Express, MUI, and MongoDB.",
+    icon: React.createElement(FaReact),
+    date: "2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Developer",
+    location: "Edmonton, AB (Remote)",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a software developer for about a year with Monogram LP. I am currently open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "Clean Collective",
+    description: "Tinder for clean tech and oil & gas",
+    tags: ["React", "Node.js", "Express", "MongoDB", "MUI"],
+    imageUrl: cleanCollectiveImg,
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "Keeper App",
+    description: "An app where you can create notes",
+    tags: ["React", "Node.js", "TypeScript", "jQuery", "Bootstrap"],
+    imageUrl: keeperAppImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Simon Game",
+    description: "A web game based off the popular game called Simon",
+    tags: ["React", "Node.js", "TypeScript", "jQuery", "Bootstrap"],
+    imageUrl: simonImg,
   },
 ] as const;
 
@@ -93,9 +90,13 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Django",
   "Git",
   "Tailwind",
-  "SQL",
+  "Fluent UI",
+  "Material UI",
+  "MySQL",
   "Python",
+  "Java",
   "Framer Motion",
 ] as const;

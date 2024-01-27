@@ -20,7 +20,6 @@ export default function Home() {
       <Skills />
       <Experience />
       <Contact />
-      <Footer />
     </main>
   );
 }
